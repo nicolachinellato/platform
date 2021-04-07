@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="rY:=TMGxaX3Z{8_j~?i~">Player</variable><variable type="KIND_SpriteKind" id="OJC$cguFCR-}Wv/6]]l*">Projectile</variable><variable type="KIND_SpriteKind" id="}MSBl0#x/Y)AM_S[;W`]">Food</variable><variable type="KIND_SpriteKind" id="Yj#4*F5xpy$Rw[pJKX5X">Enemy</variable><variable id="US9%Y#Gvd#aBP]i-a_UW">mySprite</variable><variable id="F:8`7.LA@Rzu_To+L91T">Hero</variable></variables><block type="pxt-on-start" id="]p!G`/z7?16*7eX8l(%C" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="w$,y-9#x*Il?d?NCix]L"><value name="color"><shadow type="colorindexpicker" id="AVY|w1pM5B[JitaS*ch?"><field name="index">9</field></shadow></value><next><block type="variables_set" id="w=M;X=Y,t8C;/Hx8z-^L"><field name="VAR" id="F:8`7.LA@Rzu_To+L91T">Hero</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="^!t,*-uW:qgcmTks^=s-"><value name="img"><shadow type="screen_image_picker" id="5X5A6rzGnUvZ9,h]fWZk"><field name="img">img`
+. . . . . . . . . . . . 
+. . . f f f f f f . . . 
+. f f f e e e e e f . . 
+f f f e e e e e e e f . 
+f f f f e e e e e e e f 
+f f f f f e e e 4 e e f 
+f f f f e e e 4 4 e e f 
+f f f f 4 4 4 4 4 e f f 
+f f 4 e 4 f f 4 4 e f . 
+f f 4 d 4 d d d d f . . 
+. f f f 4 d d b b f . . 
+. 4 d d e 4 4 4 e f . . 
+. e d d e 1 1 1 1 f . . 
+. f e e f 6 6 6 6 f f . 
+. f f f f f f f f f f . 
+. . f f . . . f f f . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"5X5A6rzGnUvZ9,h]fWZk"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="=M|0XGp=8$9R?vWQm4ov"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="H91RiE!UBn0TdKu=OP3I"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="8/5PHQyV1sfd!BqN+p1,"><field name="VAR" id="F:8`7.LA@Rzu_To+L91T">Hero</field></block></value><value name="vx"><shadow type="math_number" id="o75q(qKf3WB`Zp-Mz6:S"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="}~71G,#Z/yt%^$lyf646"><field name="NUM">100</field></shadow></value><next><block type="tilemap_editor" id="#/b)8xl9Y8])@|ncAUAg"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></block></next></block></next></block></next></block></statement></block></xml>
